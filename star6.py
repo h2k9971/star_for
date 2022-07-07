@@ -2,4 +2,4 @@
 
 N = 5
 for i in range(1, N):
-    print(" "*(i) + "*"(2*i) + " "*(i))
+    print(" "*(i) + "*"(2*(N-i)) + " "*(i))
